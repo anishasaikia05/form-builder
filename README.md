@@ -16,21 +16,62 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Form Builder Assignment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a React form component in Next.js that displays submitted data on the same page.
 
-## Learn More
+## Requirements
 
-To learn more about Next.js, take a look at the following resources:
+### Form Fields
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Name
+- Age
+- Email
+- Phone Number
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Validation Rules
 
-## Deploy on Vercel
+Each field must support:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Required/optional validation
+- Type validation (Number, String, Email)
+- Min/max length constraints
+- Display validation errors in red below the field
+
+### UI Components
+
+- Submit button
+- Reset button
+- Display submitted data beside the form after successful submission
+- Show validation errors at the bottom of each field
+
+### Technical Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS (optional)
+- shadcn/ui components (optional)
+
+### Code Quality
+
+- Readable, self-documenting code
+- DRY principles (avoid unnecessary repetition)
+- Well-structured components
+- **No third-party form libraries** (e.g., react-hook-form, formik)
+
+### Bonus
+
+Implement form data management using:
+
+- Context API, or equivalent
+
+## Guidelines
+
+- Aim for a complete, working implementation that meets all requirements. However, don't spend excessive time perfecting every detail—you'll have the opportunity to refine and improve the solution during the pair programming round.
+
+- Please refrain from using AI tools to generate the entire solution. The subsequent technical round will involve pair programming without AI assistance, and it's important that you're comfortable with the code you've written.
+
+- If anything is unclear or you have questions, please reach out for clarification.new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
