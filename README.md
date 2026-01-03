@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Form Builder Assignment
+
+Create a React form component in Next.js that displays submitted data on the same page.
 
 ## Getting Started
 
@@ -15,10 +17,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-# Form Builder Assignment
-
-Create a React form component in Next.js that displays submitted data on the same page.
 
 ## Requirements
 
