@@ -54,6 +54,4 @@ Implement form data management using:
 
 - Please refrain from using AI tools to generate the entire solution. The subsequent technical round will involve pair programming without AI assistance, and it's important that you're comfortable with the code you've written.
 
-- If anything is unclear or you have questions, please reach out for clarification.new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- If anything is unclear or you have questions, please reach out for clarification.
